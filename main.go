@@ -18,6 +18,12 @@ func main() {
 		fmt.Println(i, cards[i-1])
 	}
 
+	fmt.Println("------------------------------------------")
+
+	cards = newDeck()
+
+	cards.print()
+
 }
 
 func newCard() string {
